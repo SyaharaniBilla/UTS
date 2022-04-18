@@ -1,0 +1,18 @@
+Matriks adalah struktur penyimpanan data pada memori utama yang individu elemennya diacu
+dengan memakai 2 buah indeks yang sering dikonotasikan dengan baris dan kolom.
+Matriks merupakan array/larik, sehingga konsep umum untuk array dapat berlaku juga untuk
+matriks.
+Pendeklarasian matriks pada teks algoritma ditulis didalam bagian deklarasinya.
+Berikut ini merupakan beberapa cara pendeklarasian matriks, yaitu :
+#Sebagai nama peubah
+    Deklarasi
+    M : array[1..5, 1..4] of integer
+#Sebagai tipe
+    Deklarasi
+    Type mat : array[1..5, 1..4] of integer
+    M : mat
+#Mendefinisikan ukuran maksimum matriks sebagai sebuah konstanta
+    Deklarasi
+    Const nbarismaks = 20
+    Const nkolommaks = 20
+    M : array[1..nbarismaks, 1..nkolommaks] of integer
